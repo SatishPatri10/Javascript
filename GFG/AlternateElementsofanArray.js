@@ -8,4 +8,4 @@ function getAlternatives(arr) {
 
 const arr = [10, 20, 30, 40, 50];
 const res = getAlternatives(arr);
-console.log("Response is: ", res);
+console.log("Response is: ", res.join(" "));
